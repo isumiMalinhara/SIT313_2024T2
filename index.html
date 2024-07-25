@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="" width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand raleway">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarExample01">
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                        <!-- About Button -->
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="#about">About</a>
+                        </li>
+                        <!-- Work Button -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        <!-- Contact Button -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Background image -->
+        <div class="text-center bg-image header-image">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="align-items-bottom">
+                    <div class="text-white text-to-show">
+                        <h2 class="raleway hey-text">Hey, I'm Isumi</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background image -->
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="vertical-center">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <img src="./isumi.jpg" alt="Profile Picture" class="profile-pic ">
+                        <p class="raleway"><b>I am a developer based in Melbourne, Australia.</b></p>
+                    </div>
+                </div>
+                <div class="d-flex row">
+                    <div class="col-lg-12 text-center">
+                        <p class="">I am a web developer with a passion for creating beautiful and functional websites.
+                            I have experience with HTML, CSS, JavaScript, and React, and I'm always eager to learn more.
+                            In my free time, I enjoy reading, hiking, and traveling.</p>
+                    </div>
+                    <hr class="hr my-5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="d-flex projectsect container">
+            <h2 class="raleway">Here's what I've done so far</h2>
+            <div class="container d-flex projects">
+                <!-- Projects Cards -->
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                        <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Project title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                        <img src="https://mdbootstrap.com/img/new/standard/nature/121.jpg" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Project title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple" data-ripple-color="light">
+                        <img src="https://mdbootstrap.com/img/new/standard/nature/101.jpg" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Project title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="vertical-center">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="raleway">Get in touch</h2>
+                    </div>
+                </div>
+                <div class="d-flex row">
+                    <div class="col-lg-12 text-center">
+                        <p class="">I'm always looking for new opportunities to collaborate on exciting projects. If
+                            you're interested in working together, feel free to reach out to me.</p>
+                        <a class="btn btn-primary" href="https://wa.me/+61425196660" target="_blank"
+                            role="button">WhatsApp</a>
+                    </div>
+                    <hr class="hr my-5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="photosect">
+        <div class="col-lg-12 text-center">
+            <h2 class="raleway">My Photos</h2>
+        </div>
+        <div id="photos">
+            <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" alt="Photo 1" class="gallery-photo">
+            <img src="https://mdbootstrap.com/img/new/standard/nature/113.jpg" alt="Photo 2" class="gallery-photo">
+            <img src="https://mdbootstrap.com/img/new/standard/nature/114.jpg" alt="Photo 2" class="gallery-photo">
+            <img src="https://mdbootstrap.com/img/new/standard/nature/115.jpg" alt="Photo 2" class="gallery-photo">
+            <img src="https://mdbootstrap.com/img/new/standard/nature/116.jpg" alt="Photo 2" class="gallery-photo">
+            <img src="https://mdbootstrap.com/img/new/standard/nature/117.jpg" alt="Photo 2" class="gallery-photo">
+            <img src="https://mdbootstrap.com/img/new/standard/nature/118.jpg" alt="Photo 2" class="gallery-photo">
+            <img src="https://mdbootstrap.com/img/new/standard/nature/119.jpg" alt="Photo 2" class="gallery-photo">
+            <img src="https://mdbootstrap.com/img/new/standard/nature/120.jpg" alt="Photo 2" class="gallery-photo">
+        </div>
+    </section>
+</body>
+
+</html>

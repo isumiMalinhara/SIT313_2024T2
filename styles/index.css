@@ -1,0 +1,136 @@
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+
+* {
+    color: #0a4180;
+}
+.raleway {
+  font-family: "Playfair Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.text-to-show {
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+.hey-text {
+    color: white;
+}
+
+.header-image:hover .text-to-show {
+  visibility: visible;
+  transition-delay: 0s;
+  opacity: 1;
+}
+
+.navbar {
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  background: whitesmoke;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: #0d77a8;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #0a4180;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-image {
+  background-image: url("../deakin.jpg");
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 20px;
+}
+
+.align-items-bottom {
+  width: 100%;
+  letter-spacing: 3px;
+  align-items: flex-end;
+  font-weight: 400;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+p {
+  letter-spacing: 1px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.projectsect {
+  flex-direction: column;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 50%;
+  scale: 90%;
+}
+
+.bg-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 20px;
+}
+
+#photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Creates a responsive grid */
+    gap: 10px; /* Adjust the gap between images */
+    justify-content: center;
+    padding: 10px;
+}
+
+.gallery-photo {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop to cover the container */
+}
